@@ -1,0 +1,11 @@
+    Index: là một cấu trúc dữ liệu được sử dụng để tăng tốc truy vấn tìm kiếm trong cơ sở dữ liệu.
+    Trigger: là một đoạn mã tự động được thực thi khi một sự kiện cụ thể như (INSERT, UPDATE, DELETE) xảy ra trong một bảng
+trong cơ sở dữ liệu.
+    Có 2 loại trigger: là BEFORE trigger (chạy trước) và AFTER trigger (chạy sau)
+    Transactions: là một đơn vị logic, bao gồm một hoặc nhiều thao tác trên cơ sở dữ liệu. Transactions phải tuân theo
+các đặt tính ACID (Atomicity, Consistency, Isolation, Durability), để đảm bảo tính toàn vẹn của dữ liệu và khả năng phục
+hồi trong khi có sự cố.
+    Stored procedure: là một đoạn mã SQL đã được lưu trong cơ sở dữ liệu và có thể được gọi và thực thi lại nhiều lần,
+giúp tối ưu hóa việc quản lý và thực thi các tác vụ lặp đi lặp lại trong cơ sở dữ liệu, đồng thời tăng tính bảo mật 
+và hiệu suất.
+    Lợi ích của stored procedure: Tái sử dụng mã, ttăng hiệu suất, bảo mật và quản lý dễ dàng.
